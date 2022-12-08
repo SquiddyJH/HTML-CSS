@@ -79,11 +79,27 @@ a{
     text-align: center;
 }
 
+.cake-item{
+    border: 1px dashed darkslateblue;
+    width:  275px;
+    height: 275px;
+    padding: 4px;
+}
+
+.cake-group{
+    border: 2px solid darkslateblue;
+}
+
 .container{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex: wrap;
 }
+
+
+
+
+
 
 
 
